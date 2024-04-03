@@ -40,7 +40,7 @@ conda create -n Solar_Fusionformer python=3.9
 conda activate Solar_Fusionformer
 # install requirements
 pip install -r requirements.txt
-
+```
 
 ## License
 
