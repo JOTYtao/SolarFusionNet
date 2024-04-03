@@ -17,6 +17,7 @@ achieving forecast skill of 47.6\% compared to the smart persistence model for t
 <img src="pictures/framework.png" width="550">
 </div>
 ## Dataset
+
 ### Satellite
 The link to download the satellite data is [EUMETSAT](https://console.cloud.google.com/marketplace/product/bigquery-public-data/eumetsat-seviri-rss?hl=en-GB&project=triple-shadow-397515). Select the RSS dataset. Then use "reproject.py" in the scripts to cut the region, you need to set up the yaml file in configs before cutting. 
 
@@ -26,7 +27,10 @@ BSRN data can be downloaded by referring to the [Solar data](https://github.com/
 
 ## Training process
 The pytorch modules required for the model must be installed before starting to train the model, detailed versions can be found in [requirements.txt](requirements.txt). After the requirements for model training have been met, all the files in configs need to be configured.
+
+
 ## Installation
+
 #### Pip
 ```bash
 # clone project
@@ -36,6 +40,7 @@ conda create -n Solar_Fusionformer python=3.9
 conda activate Solar_Fusionformer
 # install requirements
 pip install -r requirements.txt
+
 
 ## License
 
