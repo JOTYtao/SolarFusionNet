@@ -9,9 +9,9 @@
 This is the official repository to the paper "Enhanced Regional Solar Radiation Forecasting via Automated Multi-Modal Feature Selection and Cross-Modal Fusion". In this research work, we propose a novel deep learning framework called Fusionformer - a novel attention-based deep learning architecture that effectively integrates automatic multi-modal feature selection and cross-modal fusion for enhancing regional solar radiation forecasting. 
 Fusionformer utilizes two distinct types of automatic variable feature selection units to extract relevant features from multichannel satellite imagery and multivariate meteorological data, respectively. Long-term dependencies are then captured using three types of recurrent layers, each tailored to the corresponding modal data type. In particular, a novel Gaussian kernel-injected convolutional long short-term memory network is specifically designed to isolate the sparse features present in optical flow. Subsequently, a multi-head cross-modal self-attention mechanism is introduced to investigate the coupling correlation between the three modalities. The experimental results indicate that Fusionformer exhibits robust performance in predicting regional solar irradiance, 
 achieving forecast skill of 47.6\% compared to the smart persistence model for the 4-hour-ahead forecast.
-
+<div align="center">
 <img src="pictures/framework.png" width="550">
-
+</div>
 ## Dataset
 ### Satellite
 The link to download the satellite data is [EUMETSAT](https://console.cloud.google.com/marketplace/product/bigquery-public-data/eumetsat-seviri-rss?hl=en-GB&project=triple-shadow-397515). Select the RSS dataset. Then use "reproject.py" in the scripts to cut the region, you need to set up the yaml file in configs before cutting. 
