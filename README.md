@@ -30,7 +30,12 @@ The pytorch modules required for the model must be installed before starting to 
 #### Pip
 ```bash
 # clone project
-
+https://github.com/JOTYtao/Solar_Fusionformer.git
+# create conda environment
+conda create -n Solar_Fusionformer python=3.9
+conda activate Solar_Fusionformer
+# install requirements
+pip install -r requirements.txt
 
 ## License
 
