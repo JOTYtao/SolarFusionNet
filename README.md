@@ -26,6 +26,11 @@ BSRN data can be downloaded by referring to the [Solar data](https://github.com/
 
 ## Training process
 The pytorch modules required for the model must be installed before starting to train the model, detailed versions can be found in [requirements.txt](requirements.txt). After the requirements for model training have been met, all the files in configs need to be configured.
+## Installation
+#### Pip
+```bash
+# clone project
+
 
 ## License
 
