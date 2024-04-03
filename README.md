@@ -16,6 +16,7 @@ achieving forecast skill of 47.6\% compared to the smart persistence model for t
 <div align="center">
 <img src="pictures/framework.png" width="550">
 </div>
+
 ## Dataset
 
 ### Satellite
