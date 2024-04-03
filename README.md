@@ -10,7 +10,7 @@ This is the official repository to the paper "Enhanced Regional Solar Radiation 
 Fusionformer utilizes two distinct types of automatic variable feature selection units to extract relevant features from multichannel satellite imagery and multivariate meteorological data, respectively. Long-term dependencies are then captured using three types of recurrent layers, each tailored to the corresponding modal data type. In particular, a novel Gaussian kernel-injected convolutional long short-term memory network is specifically designed to isolate the sparse features present in optical flow. Subsequently, a multi-head cross-modal self-attention mechanism is introduced to investigate the coupling correlation between the three modalities. The experimental results indicate that Fusionformer exhibits robust performance in predicting regional solar irradiance, 
 achieving forecast skill of 47.6\% compared to the smart persistence model for the 4-hour-ahead forecast.
 
-<img src="pictures/framework.png" width="350">
+<img src="pictures/framework.png" width="550">
 
 ## Dataset
 ### Satellite
