@@ -46,7 +46,10 @@ The following baseline models are included:
 
 -  **Autoformer** - Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting [[NeurIPS 2021]](https://arxiv.org/abs/2106.13008)
 -  **FEDformer** - FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting [[ICML 2022]](https://arxiv.org/abs/2201.12740) 
--  **TFT** - Temporal Fusion Transformers for interpretable multi-horizon time series forecasting [[International Journal of Forecasting]](https://www.sciencedirect.com/science/article/pii/S0169207021000637) 
+-  **TFT** - Temporal Fusion Transformers for interpretable multi-horizon time series forecasting [[International Journal of Forecasting]](https://www.sciencedirect.com/science/article/pii/S0169207021000637)
+-  **CrossViViT** - Improving day-ahead Solar Irradiance Time Series Forecasting by Leveraging Spatio-Temporal Context[[NeurIPS 2023]](https://arxiv.org/abs/2306.01112)
+
+
 ## Citation
 
 Please cite the following, if you find this work useful in your research:
