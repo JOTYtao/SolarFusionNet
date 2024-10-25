@@ -40,6 +40,33 @@ conda activate Solar_Fusionformer
 # install requirements
 pip install -r requirements.txt
 ```
+## Baselines
+
+The following baseline models are included:
+
+-  **Autoformer** - Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting [[NeurIPS 2021]](https://arxiv.org/abs/2106.13008)
+-  **FEDformer** - FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting [[ICML 2022]](https://arxiv.org/abs/2201.12740) 
+-  **TFT** - Temporal Fusion Transformers for interpretable multi-horizon time series forecasting [[International Journal of Forecasting]](https://www.sciencedirect.com/science/article/pii/S0169207021000637) 
+## Citation
+
+Please cite the following, if you find this work useful in your research:
+
+```
+@ARTICLE{10723760,
+  author={Jing, Tao and Chen, Shanlin and Navarro-Alarcon, David and Chu, Yinghao and Li, Mengying},
+  journal={IEEE Transactions on Sustainable Energy}, 
+  title={SolarFusionNet: Enhanced Solar Irradiance Forecasting via Automated Multi-Modal Feature Selection and Cross-Modal Fusion}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-13},
+  keywords={Feature extraction;Satellite images;Forecasting;Optical flow;Solar irradiance;Predictive models;Data models;Deep learning;Accuracy;Correlation;Solar irradiance forecasting;Multi-modal deep learning;Attention mechanism;Optical flow},
+  doi={10.1109/TSTE.2024.3482360}}
+```
+
+## Acknowledgement
+
+This codebase is built on <a href="https://github.com/gitbooo/CrossViVit.git">CrossViViT</a>
 
 ## License
 
