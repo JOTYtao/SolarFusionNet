@@ -439,15 +439,3 @@ class InterpretableMultiHeadAttention(nn.Module):
         outputs = self.dropout(outputs)
 
         return outputs, attn
-# input_channels = {"0": 12, "1": 12, "2": 12}
-# flags = {"0": False, "1": False, "2": False}
-# ts = torch.rand(128, 12, 3)
-# ts = {str(c): ts[:, :, c].unsqueeze(2) for c in range(ts.shape[2])}
-# for key, value in ts.items():
-#     print(f"Shape of {key}: {value.shape}")
-# model = TSVariableSelectionNetwork(input_sizes=input_channels, hidden_size=512, input_embedding_flags=flags)
-# # 通过模型前向传播输入数据
-# outputs, sparse_weights = model(ts)
-# print(ts['0'].shape)
-# # 打印输出数据和稀疏权重
-# print(sparse_weights.shape)
