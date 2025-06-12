@@ -59,11 +59,11 @@ Please cite the following, if you find this work useful in your research:
   author={Jing, Tao and Chen, Shanlin and Navarro-Alarcon, David and Chu, Yinghao and Li, Mengying},
   journal={IEEE Transactions on Sustainable Energy}, 
   title={SolarFusionNet: Enhanced Solar Irradiance Forecasting via Automated Multi-Modal Feature Selection and Cross-Modal Fusion}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-13},
-  keywords={Feature extraction;Satellite images;Forecasting;Optical flow;Solar irradiance;Predictive models;Data models;Deep learning;Accuracy;Correlation;Solar irradiance forecasting;Multi-modal deep learning;Attention mechanism;Optical flow},
+  year={2025},
+  volume={16},
+  number={2},
+  pages={761-773},
+  keywords={Feature extraction;Satellite images;Forecasting;Optical flow;Solar irradiance;Predictive models;Data models;Deep learning;Accuracy;Correlation;Solar irradiance forecasting;multi-modal deep learning;attention mechanism;optical flow},
   doi={10.1109/TSTE.2024.3482360}}
 ```
 
