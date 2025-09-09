@@ -139,9 +139,9 @@ class FusionFormer(pl.LightningModule):
         opflattened_output = self.linear(opflattened_output)
         q_opflattened_output = self.LRU_2(opflattened_output)
         q_attn_output, q_attn_output_weights = self.timeseries_attention(
-            q=q_opflattened_output,
-            k=q_1_output,
-            v=q_1_output,
+            q=q_1_output,
+            k=q_opflattened_output,
+            v=q_opflattened_output,
             mask=None,
         )
         # ******************************time series part****************************************
@@ -160,9 +160,9 @@ class FusionFormer(pl.LightningModule):
         lstm_output_encoder = self.post_lstm_gate_encoder(encoder_output)
         lstm_output_encoder = self.post_lstm_add_norm_encoder(lstm_output_encoder, embeddings_varying_encoder)
         attn_output, attn_output_weights = self.timeseries_attention(
-            q=q_attn_output,
-            k=lstm_output_encoder,
-            v=lstm_output_encoder,
+            q=lstm_output_encoder,
+            k=q_attn_output,
+            v=q_attn_output,
             mask=None,
         )
         timeseries_attn_output = self.timeseries_attn_gate_norm(attn_output, lstm_output_encoder)
